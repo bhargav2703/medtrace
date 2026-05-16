@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files — NEVER commit these
+.env
+.env.local
+.env.production
+server/.env
+client/.env
+
+# Build output
+client/dist/
+client/dist-ssr/
+
+# Uploads (temp audio files)
+server/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
